@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Test_db@localhost" uuid="eafcf221-a028-43a0-9453-e7a5685bfadc">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/Test_db</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Test_db/EclipseLink" uuid="5b89977e-15af-4a37-b840-d0d41cee43ef">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>EclipseLink
+
+E:/Apps/TestJPA/src/main/resources/META-INF/persistence.xml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/Test_db</jdbc-url>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+                 version="2.0">
+
+    <entity class="uz.pdp.model.Users">
+        <attributes>
+            <id name="id">
+                <generated-value/>
+            </id>
+        </attributes>
+    </entity>
+    <entity class="uz.pdp.model.Month">
+        <attributes>
+            <id name="id">
+                <generated-value/>
+            </id>
+        </attributes>
+    </entity>
+    <entity class="uz.pdp.model.Country">
+        <attributes>
+            <id name="id">
+                <generated-value/>
+            </id>
+        </attributes>
+    </entity>
+    <entity class="uz.pdp.model.Profile">
+        <attributes>
+            <id name="id">
+                <generated-value/>
+            </id>
+            <one-to-one name="user" target-entity="uz.pdp.model.Users" mapped-by=""/>
+            <one-to-one name="country" target-entity="uz.pdp.model.Country" mapped-by=""/>
+        </attributes>
+    </entity>
+</entity-mappings>
